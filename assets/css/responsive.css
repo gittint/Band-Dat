@@ -1,0 +1,51 @@
+
+/* Mobile */
+
+@media (max-width:740px){
+    .s-col-full{
+        width: 100%;
+    }
+    
+    #nav{
+        display: block;
+    }
+    
+    #nav > li{
+        display: block; /*cho menu thành hàng dọc*/
+    }
+
+    /* sửa thẻ home không có nó width full */
+    #nav #home{
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 40px;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+    
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #content .member-img{
+        width: 60%;
+    }
+}
