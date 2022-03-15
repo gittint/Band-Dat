@@ -64,6 +64,7 @@ html{
     margin-top: 15px;
     border: none;
     text-align: center;
+    font-size: 15px;
 }
 
 .btn:hover{
@@ -137,7 +138,7 @@ html{
     position: absolute;
     top:46px; /*Bằng height của cha*/
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); /*Tạo bóng*/
 }
 
 #nav li:hover .subnav{
@@ -189,7 +190,7 @@ html{
     position: relative;
     margin-top: 46px;
     padding-top: 50%; /*Nghĩa là kích thước chiều cao bằng 50% chiều rộng*/
-    background: url('/assets/img/267444055_579300239835259_795288689091068743_n.jpg') top center / cover no-repeat;
+    background: url('../img/267444055_579300239835259_795288689091068743_n.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content{
@@ -200,6 +201,7 @@ html{
     transform: translateX(-50%); */
     text-align: center;
     width: 100%;
+    text-shadow: 0 0 1px #000; /*tạo bóng cho chữ dễ nhìn hơn*/
 }
 
 #slider .text-heading{
@@ -351,6 +353,15 @@ html{
     display: inline-block;
 }
 
+.contact-info a{
+    color: #101aef;
+    opacity: 0.8;
+}
+
+.contact-info a:hover{
+    opacity: 1;
+}
+
 .contact-form{
     font-size: 15px;
 }
@@ -359,6 +370,7 @@ html{
     padding: 10px;
     border: 1px solid #ccc;
     width: 100%;
+    font-size: 15px;
 }
 
 .map-section img{
